@@ -7,8 +7,14 @@ class Rectangle {
 	get width(){
 		return this._width;
 	}
+	set width(){
+		 this._width=width;
+	}
 	get height(){
-		return this.height;
+		return this._height;
+	}
+		set height(){
+		 this._height=height;
 	}
 	getArea(){
 		console.log("The are of"+this.width+"Rectangle"+this.height);
