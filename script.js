@@ -13,7 +13,7 @@ class Rectangle {
 	}
 	
 	getArea(){
-		console.log(`"The are of"+${this.width}+"Rectangle"+${this.height}`);
+		console.log("The are of"+this.width+"Rectangle"+this.height);
 	}
 }
 
